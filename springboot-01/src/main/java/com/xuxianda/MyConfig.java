@@ -16,4 +16,19 @@ public class MyConfig {
         return new MyBean();
     }
 
+    @Bean
+    public RunnableFactoryBean getRunnableFactoryBean(){
+        return new RunnableFactoryBean();
+    }
+
+    @Bean
+    public Cat getCat(){
+        return new Cat();
+    }
+
+    @Bean(initMethod="init",destroyMethod = "destory")
+    public Dog getDog(){
+        return new Dog();
+    }
+
 }
