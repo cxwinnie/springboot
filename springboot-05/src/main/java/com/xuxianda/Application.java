@@ -23,6 +23,9 @@ public class Application {
         context.getBean(Runnable.class).run();
         System.out.println(context.getEnvironment().getProperty("local.ip"));
         context.getBean(UserConfig.class).show();
+        context.getBean(JdbcConfig.class).show();
+        context.getBean(DataSourceConfig.class).show();
+        context.getBean(TomcatConfig.class).show();
         context.close();
     }
 
