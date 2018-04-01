@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * 支持数据、集合，配置方式参考tomcat.properties
  * Created by Xianda Xu on 2018/4/1.
  */
 @Configuration

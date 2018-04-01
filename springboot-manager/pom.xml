@@ -8,6 +8,8 @@
     <modules>
         <module>../springboot-01</module>
         <module>../springboot-05</module>
+        <module>../springboot-08</module>
+        <module>../springboot-09</module>
     </modules>
     <packaging>pom</packaging>
 
