@@ -10,6 +10,7 @@
         <module>../springboot-05</module>
         <module>../springboot-08</module>
         <module>../springboot-09</module>
+        <module>../springboot-11</module>
     </modules>
     <packaging>pom</packaging>
 

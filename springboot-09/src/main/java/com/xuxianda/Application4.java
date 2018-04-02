@@ -7,13 +7,11 @@ import org.springframework.context.ConfigurableApplicationContext;
  * Created by Xianda Xu on 2018/4/1.
  */
 //@SpringBootApplication
-//@MyLog("my springboot")
-public class Application3 {
+//@EnableEcho(packages = {"com.xuxianda.bean1","com.xuxianda.bean2"})
+public class Application4 {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(Application3.class, args);
-        System.out.println(context.getBean(User.class));
-        System.out.println(context.getBeansOfType(Runnable.class));
+        ConfigurableApplicationContext context = SpringApplication.run(Application4.class, args);
         context.close();
     }
 
