@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-xxxxxx${hello}
+ok   ${value}
 </body>
 </html>
