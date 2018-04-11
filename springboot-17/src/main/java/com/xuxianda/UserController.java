@@ -15,4 +15,9 @@ public class UserController {
         return "user home";
     }
 
+    @GetMapping("/user/error")
+    public String error(){
+        throw new IllegalArgumentException("arg is error");
+    }
+
 }
