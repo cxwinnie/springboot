@@ -13,6 +13,9 @@
         <module>../springboot-11</module>
         <module>../springboot-12</module>
         <module>../springboot-15</module>
+        <module>../springboot-16</module>
+        <module>../springboot-17</module>
+        <module>../springboot-18</module>
     </modules>
     <packaging>pom</packaging>
 
