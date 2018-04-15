@@ -1,0 +1,4 @@
+spring:
+  aop:
+    proxy-target-class: false   #false开启jdk动态代理（需要有接口和实现类），true开启cglib代理
+#    auto: false  #是否开启切面，默认开启
