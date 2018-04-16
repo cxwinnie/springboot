@@ -1,3 +1,9 @@
-logging:
-  level:
-    root: debug
+#logging:
+#  level:
+#    root: debug
+#  file: D:\temp\111.log
+#  pattern:
+#    file: -%d{yyyy/MM/dd} [%thread] %-5level %logger- %msg%n  #日志文件输出日志格式
+#    console: -%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n  #控制台输出日志格式
+server:
+  port: 8888
