@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
  * springboot会优先加载测试环境下的配置文件
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(properties={""})
+@SpringBootTest()
 public class EnvTest {
 
     @Autowired
